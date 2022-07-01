@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { InfoPagesService } from './services/info-pages.service';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+
   title = 'Portafolio-Angular';
+
+  constructor( public _infoPageService: InfoPagesService ){}
+
 }
