@@ -13,3 +13,15 @@ export class ItemComponent implements OnInit {
   }
 
 }
+@Component({
+  selector: 'app-item2',
+  templateUrl: './item2.component.html',
+  styleUrls: ['./item.component.scss']
+})export class ItemComponent2 implements OnInit {
+
+  constructor() { }
+
+  ngOnInit(): void {
+  }
+
+}
