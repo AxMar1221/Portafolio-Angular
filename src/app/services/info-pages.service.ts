@@ -37,7 +37,7 @@ export class InfoPagesService {
       this.team = resp;
       // this.loade = true,
       // this.info = resp,
-      console.log( resp );
+      // console.log( resp );
     })
   }
 }
